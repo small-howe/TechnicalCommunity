@@ -51,12 +51,14 @@
         </dependency>
 
            <!-- mysql 数据库-->
+
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.27</version>
+            <version>5.1.47</version>
         </dependency>
+
 
 
 
@@ -123,7 +125,23 @@
                     <fork>true</fork>
                 </configuration>
             </plugin>
-
+            <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+                <version>5.2.4</version>
+                <configuration>
+                    <url>jdbc:mysql://192.168.91.128/community</url>
+                    <user>root</user>
+                    <password>root</password>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>5.1.47</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
             <!-- mybatis generator代码自动生成 依赖   mybatis generator 自动生成代码插件-->
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
