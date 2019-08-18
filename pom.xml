@@ -130,7 +130,7 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>5.2.4</version>
                 <configuration>
-                    <url>jdbc:mysql://192.168.91.128/community</url>
+                    <url>jdbc:mysql://127.0.0.1:3306/community</url>
                     <user>root</user>
                     <password>root</password>
                 </configuration>
