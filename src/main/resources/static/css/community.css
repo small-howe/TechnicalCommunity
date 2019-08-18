@@ -1,0 +1,127 @@
+body{
+    background-color: #efefef;
+}
+<!-- /*背景颜色 */ -->
+.main{
+    background-color: #ffffff;
+    margin: 50px;
+}
+
+/* <!--publish 页面的buttenn 按钮 -->*/
+.btn-publish{
+    float: right;
+    margin-bottom: 15px;
+}
+
+.media-object{
+    width: 40px;
+    height: 40px;
+}
+.media-body{
+
+    padding-top: 10px;
+}
+.text-desc {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+.profile .section{
+    margin-top: 15px;
+}
+.community-menu{
+
+
+    color: #999;
+    font-size: 13px;
+    margin-bottom:15px;
+
+}
+.jumbotron{
+
+    margin: 50px;
+}
+.comment{
+    margin: 10px 0px;
+}
+.comment-sp{
+    margin-top: 0px;
+}
+.menu{
+    color: #999;
+    margin-top: 5px;
+}
+.menu .icon{
+    margin-right:6px;
+    font-size: 15px;
+    /*鼠标悬浮时 的样子*/
+    cursor: pointer;
+}
+
+.menu .comment-icon{
+
+    font-size: 15px;
+    /*鼠标悬浮时 的样子*/
+    cursor: pointer;
+
+}
+
+.menu .comment-icon:hover{
+    color: #499ef3;
+}
+
+.menu .active{
+    color: #499ef3;
+}
+
+.menu .icon:hover{
+    color: #499ef3;
+}
+/*回复框*/
+.comments{
+    padding: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.sub-comment{
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.sub-comment .btn{
+    margin: 10px 0px;
+}
+.question-title{
+    margin-top: 25px;
+}
+.question-tag{
+    margin-right: 5px;
+}
+.question-related{
+    line-height: 20px;
+    padding-left: 0px;
+    list-style: none;
+}
+.question-wechat{
+    width: 100%;
+}
+
+.publish-tag-tab{
+    display: none;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.publish-tag-tab .label-info{
+    margin-right: 10px;
+    white-space: normal;
+    margin: 5px 5px;
+    display: inline-block;
+}
+.fonter{
+    padding: 15px 33%;
+    margin-left: 20px;
+    color: #666;
+
+}
