@@ -6,12 +6,18 @@
 3. maven 构建项目
 4. mysql
 ## 步骤
-####1.更新源 安装git 创建文件
+####1.更新源 安装git 创建文件 克隆项目  进入项目下载maven(查看版本) 编译打包
  - yum update
  - yum install git
  - mkdir App
  - cd App/ 
- - git clone 
+ - git clone https://github.com/small-howe/TechnicalCommunity.git
+ - yum install maven
+ - maven -v
+ - mvn compile package
+ - java -jar -Dspring.profiles.active=production target/communtiy-0.0.1-SNAPSHOT.jar
+ - ps -aux | grep java
+ 
 
  
 
