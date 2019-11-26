@@ -38,13 +38,10 @@ public class QuesstionServcie {
         // 阿帕奇 下面的判断是否为空
         if(StringUtils.isNotBlank(search)){
             // 先把tag 用逗号隔开
-            String[] tags = StringUtils.split(search, " ");
+            String[] tags = StringUtils.split(search, "  ");
 
             search= Arrays.stream(tags).collect(Collectors.joining("|"));
         }
-
-
-
 
 
         /**  0  5   第一页   5*(i-1)

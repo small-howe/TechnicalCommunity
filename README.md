@@ -16,7 +16,7 @@
  - maven -v
  - mvn compile package
  - java -jar -Dspring.profiles.active=production target/communtiy-0.0.1-SNAPSHOT.jar
- - ps -aux | grep java
+ - ps -aux | grep java// 查看进程 
  
 
  
@@ -37,6 +37,7 @@
 [Spring Dev Tool](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#using-boot-devtools)  
 [Spring MVC](https://docs.spring.io/spring/docs/5.0.3.RELEASE/spring-framework-reference/web.html#mvc-handlermapping-interceptor)  
 [Markdown 插件](http://editor.md.ipandao.com/)   
+[ucloud SDK] (https://console.ucloud.cn/ufile/ufile/detail?id=small-howe)
 [UFfile SDK](https://github.com/ucloud/ufile-sdk-java)  
 [Count(*) VS Count(1)](https://mp.weixin.qq.com/s/Rwpke4BHu7Fz7KOpE2d3Lw)  
 

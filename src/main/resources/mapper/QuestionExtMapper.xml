@@ -40,6 +40,8 @@
       </if>
     </where>
   </select>
+
+
   <select id="selectBySearch"  parameterType="com.tangwh.dto.QuestionQueryDTO" resultMap="BaseResultMap">
     SELECT  * FROM question
     <where>

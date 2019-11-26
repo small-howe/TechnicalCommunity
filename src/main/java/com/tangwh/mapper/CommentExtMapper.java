@@ -1,8 +1,9 @@
 package com.tangwh.mapper;
 
 import com.tangwh.entity.Comment;
-import org.apache.ibatis.annotations.Update;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface CommentExtMapper {
 
  //  @Update("UPDATE `comment` SET `comment_count`=#{commentCount} WHERE `id` =#{id}")
